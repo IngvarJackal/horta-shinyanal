@@ -1,0 +1,5 @@
+library(RH2)
+dbCon <- dbConnect(H2(), "jdbc:h2:./database/hell")
+setwd("./shiny")
+library(shiny)
+runApp()
